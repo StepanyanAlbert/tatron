@@ -12,5 +12,5 @@ $insert="insert into gazan(reserv_place) VALUES ('$res')";
 if (mysqli_query($link, $insert)) {
     echo "New record created successfully";
 } else {
-    echo "Error: " . $sql . "<br>" . mysqli_error($link);
+    echo "Error: " . $sql . "<br>" ;
 }
