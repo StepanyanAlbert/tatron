@@ -14,5 +14,4 @@ if (mysqli_query($link, $insert)) {
 } else {
 
     echo "Error: " . $sql . "<br>" ."<br>". mysqli_error($link);
-=======
-    echo "Error: " . $sql . "<br>" ;}
+}
